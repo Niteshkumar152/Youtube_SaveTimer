@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "name":"SaveTime",
+    "description":"Save Time from youtube",
+    "version":"1.0.0",
+    "icons":{"128":"favicon.png"},
+    "content_scripts":[
+        {
+            "matches":["*://*.youtube.com/**"],
+            "js":["popup.js"],
+            "css":["popup.css"]
+         
+        }
+    ]
+    
+
+}
